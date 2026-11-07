@@ -1,20 +1,26 @@
-Retail Sales EDA Business Insights
-==================================
+RETAIL SALES EDA - BUSINESS INSIGHTS REPORT
+================================================
+Dataset: retail_sales.csv
+Rows analyzed: 9,994
+Columns: 26
 
-Findings:
-- Best sales month: 2017-11 (118,447.82).
-- Most profitable category: Technology.
-- Best-selling product by quantity: Staples.
-- Lowest sales month: 2014-02 (4,519.89).
+BUSINESS INSIGHTS
+1. Best sales month: November 2017 ($118,447.82); weakest month: February 2014 ($4,519.89).
+2. Best sales quarter: 2017Q4 ($280,054.07).
+3. Highest-revenue category: Technology ($836,154.03); lowest: Office Supplies ($719,047.03).
+4. Most profitable category by total profit: Technology ($145,454.95); lowest total profit: Furniture ($18,451.27).
+5. Top product by quantity: Staples (215 units).
+6. Largest available customer segment by sales: Consumer ($1,161,401.34).
+7. Negative-profit transaction lines represent 18.7% of analyzed rows.
 
-Actionable recommendations:
-1. Prioritize inventory planning for the strongest sales period, 2017-11.
-2. Protect availability of the leading category, Technology, while reviewing the lower-performing category, Office Supplies.
-3. Use reorder thresholds for the top product, Staples.
-4. Review high-discount transactions and loss-making products before expanding discount campaigns.
-5. Use category-level profit, not sales alone, when evaluating assortment decisions.
-6. Age and gender targeting cannot be evaluated because those fields are absent from the source dataset.
+ACTIONABLE RECOMMENDATIONS
+1. Prioritize replenishment and availability monitoring for high-volume products such as Staples, while checking their profit contribution before expanding stock.
+2. Plan campaigns and inventory capacity around the strongest observed month, November 2017, and investigate the causes of the weakest month, February 2014.
+3. Review pricing, sourcing, and product mix in Furniture because it has the lowest total category profit, even if its sales volume is material.
+4. Set discount guardrails and test promotions by product or category, using profit as the success metric rather than sales alone.
+5. Tailor retention and cross-sell activity to the largest available segment, Consumer, while using order frequency and profit to refine targeting.
+6. Track monthly sales, profit, discount, and negative-profit line share as a recurring management dashboard so changes can be acted on quickly.
 
-Limitations:
-- Customer age and gender are not available in Sample - Superstore.csv.
-- Correlation does not establish causation.
+LIMITATIONS
+Customer age and gender are not present in the supplied dataset; demographic conclusions are therefore limited to the available customer segment field.
+Correlation results are descriptive associations and should not be interpreted as causal effects.

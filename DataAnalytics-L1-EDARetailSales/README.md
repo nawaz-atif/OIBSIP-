@@ -1,30 +1,30 @@
 # Retail Sales EDA
 
-This project is a university-level exploratory data analysis of a retail sales CSV using pandas, NumPy, Matplotlib, and Seaborn.
+This project presents an academic exploratory data analysis of the supplied Superstore retail transactions. The original source file is preserved outside the project; a working copy is stored as `data/retail_sales.csv`.
 
-## Dataset
-
-This project uses the supplied `Sample - Superstore.csv` dataset. The original CSV remains unmodified in the project root.
+## Project structure
 
 ```text
+Retail_Sales_EDA/
+├── data/retail_sales.csv
+├── notebooks/Retail_Sales_EDA.ipynb
+├── outputs/charts/
+├── outputs/reports/business_insights.txt
+├── requirements.txt
+└── README.md
 ```
 
-The notebook loads the source with `latin1` encoding and does not fabricate records or assume fixed column names. It detects common variants of date, sales/revenue, quantity, profit, product, category, age, gender, and customer ID columns, and documents unavailable analyses when fields are absent.
+## Run the analysis
 
-## Run
+From this directory, create or activate a Python environment and install dependencies:
 
 ```bash
-cd DataAnalytics-L1-EDARetailSales
 python -m pip install -r requirements.txt
 jupyter notebook notebooks/Retail_Sales_EDA.ipynb
 ```
 
-Run all cells from top to bottom. Generated PNG charts are saved to `outputs/charts/`, and the calculated narrative report is saved to `outputs/reports/business_insights.txt`.
+Run all notebook cells. The notebook reads the real CSV, performs schema-aware cleaning and analysis, displays the figures inline, saves high-resolution PNG charts under `outputs/charts/`, and generates `outputs/reports/business_insights.txt`.
 
-## Structure
+## Dataset limitation
 
-- `Sample - Superstore.csv`: original input dataset
-- `notebooks/Retail_Sales_EDA.ipynb`: executable analysis
-- `outputs/charts/`: high-resolution figures
-- `outputs/reports/`: business insights report
-- `requirements.txt`: Python dependencies
+The supplied data contains order, customer, product, sales, quantity, discount, and profit fields. It does not contain customer age or gender, so demographic analysis is explicitly documented as unavailable rather than inferred.
