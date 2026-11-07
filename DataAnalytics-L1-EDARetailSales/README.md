@@ -4,18 +4,17 @@ This project is a university-level exploratory data analysis of a retail sales C
 
 ## Dataset
 
-The source dataset was not present in the supplied workspace when this project was created. Place the original, unmodified CSV at:
+This project uses the supplied `Sample - Superstore.csv` dataset. The original CSV remains unmodified in the project root.
 
 ```text
-data/retail_sales.csv
 ```
 
-The notebook does not fabricate records or assume fixed column names. It detects common variants of date, sales/revenue, quantity, profit, product, category, age, gender, and customer ID columns, and documents unavailable analyses when fields are absent.
+The notebook loads the source with `latin1` encoding and does not fabricate records or assume fixed column names. It detects common variants of date, sales/revenue, quantity, profit, product, category, age, gender, and customer ID columns, and documents unavailable analyses when fields are absent.
 
 ## Run
 
 ```bash
-cd Retail_Sales_EDA
+cd DataAnalytics-L1-EDARetailSales
 python -m pip install -r requirements.txt
 jupyter notebook notebooks/Retail_Sales_EDA.ipynb
 ```
@@ -24,7 +23,7 @@ Run all cells from top to bottom. Generated PNG charts are saved to `outputs/cha
 
 ## Structure
 
-- `data/retail_sales.csv`: original input dataset, supplied separately
+- `Sample - Superstore.csv`: original input dataset
 - `notebooks/Retail_Sales_EDA.ipynb`: executable analysis
 - `outputs/charts/`: high-resolution figures
 - `outputs/reports/`: business insights report
