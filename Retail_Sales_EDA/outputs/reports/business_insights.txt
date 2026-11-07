@@ -1,0 +1,20 @@
+Retail Sales EDA Business Insights
+==================================
+
+Findings:
+- Best sales month: 2017-11 (118,447.82).
+- Most profitable category: Technology.
+- Best-selling product by quantity: Staples.
+- Lowest sales month: 2014-02 (4,519.89).
+
+Actionable recommendations:
+1. Prioritize inventory planning for the strongest sales period, 2017-11.
+2. Protect availability of the leading category, Technology, while reviewing the lower-performing category, Office Supplies.
+3. Use reorder thresholds for the top product, Staples.
+4. Review high-discount transactions and loss-making products before expanding discount campaigns.
+5. Use category-level profit, not sales alone, when evaluating assortment decisions.
+6. Age and gender targeting cannot be evaluated because those fields are absent from the source dataset.
+
+Limitations:
+- Customer age and gender are not available in Sample - Superstore.csv.
+- Correlation does not establish causation.
