@@ -19,7 +19,7 @@ From this directory, create or activate a Python environment and install depende
 
 ```bash
 python -m pip install -r requirements.txt
-jupyter notebook notebooks/Retail_Sales_EDA.ipynb
+jupyter notebook notebooks/Customer_Segmentation_Analysis.ipynb
 ```
 
 Run all notebook cells. The notebook reads the supplied Excel workbook, performs schema-aware cleaning, builds customer-level RFM features, standardises them, evaluates K from 1 to 10 with the elbow method, fits K-Means with a fixed random state, displays the figures inline, and generates the included PNG charts and `outputs/reports/business_insights.txt`.

@@ -1,6 +1,6 @@
 # Retail Sales EDA
 
-This project presents an academic exploratory data analysis of the supplied Superstore retail transactions. The original source file is preserved outside the project; a working copy is stored as `data/retail_sales.csv`.
+This project presents an academic exploratory data analysis of the supplied Superstore retail transactions. The source dataset is `/Users/atifnawaz/Downloads/Sample - Superstore.csv`; a working copy is stored as `data/retail_sales.csv`.
 
 ## Project structure
 
