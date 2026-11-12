@@ -1,0 +1,39 @@
+CUSTOMER SEGMENTATION ANALYSIS - BUSINESS INSIGHTS
+==========================================================
+Dataset: Online Retail.xlsx
+Completed transaction lines analyzed: 392,692
+Customers segmented: 4,338
+Selected K: 4
+
+Cluster 0: Hibernating / Low-Engagement Customers
+- Customers: 3,054
+- Average Recency: 42.7 days
+- Average Frequency: 3.7 invoices
+- Average Monetary: $1,353.63
+- Action: Test targeted reactivation discounts while controlling promotion cost.
+
+Cluster 1: Hibernating / Low-Engagement Customers
+- Customers: 1,067
+- Average Recency: 247.1 days
+- Average Frequency: 1.6 invoices
+- Average Monetary: $478.85
+- Action: Test targeted reactivation discounts while controlling promotion cost.
+
+Cluster 2: Champions / Loyal Customers
+- Customers: 13
+- Average Recency: 6.4 days
+- Average Frequency: 82.5 invoices
+- Average Monetary: $127,187.96
+- Action: Protect loyalty with rewards, early access, and cross-sell offers.
+
+Cluster 3: Champions / Loyal Customers
+- Customers: 204
+- Average Recency: 14.5 days
+- Average Frequency: 22.3 invoices
+- Average Monetary: $12,690.50
+- Action: Protect loyalty with rewards, early access, and cross-sell offers.
+
+Assumptions and limitations:
+- Cancelled invoices, nonpositive quantities/prices, invalid dates, missing CustomerIDs, and duplicate rows were excluded.
+- Customer Lifetime Value is observed historical revenue, not a forecast of future value.
+- Labels describe relative behaviour and do not infer demographics.
