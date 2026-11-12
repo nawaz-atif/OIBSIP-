@@ -2,10 +2,13 @@
 
 This project completes OIBSIP Data Analytics Level 1, Task 2: Customer Segmentation Analysis. It uses RFM features and K-Means clustering on the supplied Online Retail transaction workbook. The original source file remains unchanged at `/Users/atifnawaz/Downloads/Online Retail.xlsx`.
 
+The source dataset is `/Users/atifnawaz/Downloads/Online Retail.xlsx`; a working copy is stored as `data/Online Retail.xlsx`.
+
 ## Project structure
 
 ```text
 DataAnalytics-L1-Task2-CustomerSegmentationAnalysis/
+├── data/Online Retail.xlsx
 ├── notebooks/Customer_Segmentation_Analysis.ipynb
 ├── outputs/charts/
 ├── outputs/reports/business_insights.txt
