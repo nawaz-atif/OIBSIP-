@@ -4,7 +4,7 @@ This project analyzes the supplied Amazon Fine Food Reviews dataset with NLTK te
 
 ## Dataset
 
-The notebook uses the original dataset at `/Users/atifnawaz/Downloads/Reviews.csv`. The 287 MB source is intentionally not duplicated in Git because GitHub rejects files larger than 100 MB. No data is fabricated or replaced.
+The notebook uses the unchanged local copy at `data/Reviews.csv`, copied from `/Users/atifnawaz/Downloads/Reviews.csv`. The source is about 301 MB and is intentionally excluded from normal Git commits because GitHub rejects files larger than 100 MB. No data is fabricated or replaced.
 
 The dataset contains five review scores. The notebook maps the documented ordinal scale to three sentiment classes: scores 1-2 become `Negative`, score 3 becomes `Neutral`, and scores 4-5 become `Positive`. This is a transparent rating-based mapping, not an invented third class.
 
@@ -12,6 +12,7 @@ The dataset contains five review scores. The notebook maps the documented ordina
 
 ```text
 DataAnalytics-L1-Task4-SentimentAnalysis/
+├── data/Reviews.csv
 ├── notebooks/Sentiment_Analysis_NLP.ipynb
 ├── outputs/charts/
 ├── requirements.txt
